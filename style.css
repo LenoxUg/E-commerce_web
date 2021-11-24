@@ -1,0 +1,55 @@
+:root{
+    --color:#ff3838;
+}
+*{ 
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+}
+.log{
+    width: 4rem;
+    height: 4rem;
+}
+.cart{
+   font-size: 20px;
+}
+.img{
+    display: flex;
+    padding: 4px;
+    margin-left: 20px;
+
+    /* text-color:white; */
+}
+header{
+    width: 100%;
+}
+.headerx{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background: brown;
+
+}
+i{
+    color: white;
+}
+.form1{
+    padding: 8px;
+}
+.links{
+    padding: 4px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+a span:hover{
+    text-decoration: none;
+    list-style: none;
+}
