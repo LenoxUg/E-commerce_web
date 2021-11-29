@@ -9,6 +9,11 @@
     text-transform: capitalize;
     border: none;
 }
+html{
+    font-size: 72%;
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+}
 .log{
     width: 4rem;
     height: 4rem;
@@ -25,6 +30,7 @@
 }
 header{
     width: 100%;
+    z-index: 1000;
 }
 .headerx{
     margin-top: 0px;
@@ -107,4 +113,18 @@ button:hover{
    span{
        width: 2rem;
        height: 3rem;
+   }
+   .card{
+       height: 260px;
+       width: 280px;
+       margin: 90px 2px 120px 2px;
+   }
+   /* .img-a img{
+       height: 200px;
+       width: 190px;
+       margin: 15px;
+   } */
+   .card-body{
+
+    align: center;
    }
