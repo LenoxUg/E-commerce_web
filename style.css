@@ -49,6 +49,13 @@ i{
 .form1{
     padding: 8px;
 }
+.lg-form{
+    width: 50%;
+    height: 20%;
+    align-items: center;
+    margin: 2% 30% 90% 20%;
+    background-color: pink;
+}
 .links{
     padding: 4px;
 }
@@ -64,8 +71,8 @@ a span:hover{
 
  Body{
  font-family: Calibri,Helvetica, sans-serif;
- background-color: pink;
-            }
+ /* background-color: pink; */
+ }
  
  button{
         background-color: #4CAF50;
@@ -100,7 +107,8 @@ button:hover{
  footer{
     background-color: #3f3f3f;
     color:#d5d5d5;
-    position: fixed;
+    /* position: fixed; */
+    backface-visibility: inherit;
     padding: 5px 5px 5px 5px;
     bottom: 0;
     width: 100%;
@@ -118,6 +126,7 @@ button:hover{
        height: 260px;
        width: 280px;
        margin: 90px 2px 120px 2px;
+       padding: 2px;
    }
    /* .img-a img{
        height: 200px;
