@@ -35,26 +35,29 @@ header{
 .headerx{
     margin-top: 0px;
     margin-left: 0px;
+    padding: 1rem;
     width:100%;
     margin-right: 0px ;
     display: flex;
     position: fixed;
     justify-content: space-between;
-    background: brown;
+    background: rgb(212, 187, 187);
 
 }
+
 i{
     color: white;
 }
 .form1{
     padding: 8px;
+    width: 30rem;
 }
 .lg-form{
     width: 50%;
     height: 20%;
     align-items: center;
     margin: 2% 30% 90% 20%;
-    background-color: pink;
+    background-color:grey;
 }
 .links{
     padding: 4px;
