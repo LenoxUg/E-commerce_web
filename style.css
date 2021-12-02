@@ -31,18 +31,17 @@ html{
 header{
     width: 100%;
     z-index: 1000;
+    
 }
 .headerx{
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 10rem;
-    padding: 1rem;
+    margin-bottom: -1rem;
+    padding: 2rem 0rem;
     width:100%;
-    margin-right: 0px ;
     display: flex;
     position: fixed;
     justify-content: space-between;
     background: rgb(212, 187, 187);
+    box-shadow: 0px 0px 20px rgb(189, 186, 186);
 
 }
 
@@ -69,6 +68,7 @@ a{
 }
 a span:hover{
     text-decoration: none;
+    color: blue;
     list-style: none;
 }
 
@@ -103,9 +103,10 @@ button:hover{
     opacity: 10px 18px;
     margin: 10px 5px;
     }
- container{
-    padding: 25px;
-   background-color: lightblue;
+ .container{
+     margin: 0rem 0rem 3rem 0rem;
+    padding: 2rem 1rem;
+   background-color: rgb(246, 248, 248);
 }
               
  footer{
@@ -113,10 +114,10 @@ button:hover{
     color:#d5d5d5;
     /* position: fixed; */
     backface-visibility: inherit;
-    padding: 5px 5px 5px 5px;
+    padding: 15px 5px 5px 5px;
     width: 100%;
-    height: 25rem;
-    margin: 0rem 1rem;
+    height: 25rem; 
+    margin: 0.8rem 0.2rem;
   }
   .social a{
     padding:5px;
@@ -127,11 +128,13 @@ button:hover{
        height: 3rem;
    }
    .card{
-       height: 260px;
-       width: 280px;
-       margin: 90px 2px 120px 2px;
+       height: 25rem;
+       margin: 90px 2px 90px 2px;
        padding: 2px;
    }
+   /* .card > .card-body{
+       margin: 3rem 0rem 2rem 0rem;
+   } */
    /* .img-a img{
        height: 200px;
        width: 190px;
